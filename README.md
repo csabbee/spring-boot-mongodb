@@ -25,6 +25,9 @@ curl http://localhost:9090/12345
 ### Delete user from database:
 ```
 curl -H "Content-Type: application/json" -X DELETE -d '{"id": "12345", "firstName": "Abc", "lastName": "Xyz"}' http://localhost:9090
+```
+or
+```
 curl -X DELETE http://localhost:9090/12345
 ```
 
