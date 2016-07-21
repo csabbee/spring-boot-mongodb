@@ -39,6 +39,7 @@ curl -H "Content-Type: application/json" -X PUT -d '{"firstName": "new", "lastNa
 ## Create user:
 ```
 curl -H "Content-Type: application/json" -X POST -d '{"firstName": "myNew", "lastName": "user"}' http://localhost:9090
+```
 
 ## Config
 You can update on which port should the server list by updating the **server.port** in **application.properties** 
