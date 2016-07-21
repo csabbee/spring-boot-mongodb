@@ -13,7 +13,7 @@ public class Application implements CommandLineRunner {
     private CustomerRepository customerRepository;
     
     public static void main(String[] args) {
-        ApplicationContext context = SpringApplication.run(Application.class, args);
+        SpringApplication.run(Application.class, args);
     }
 
     @Override
