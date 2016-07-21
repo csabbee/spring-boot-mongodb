@@ -41,6 +41,11 @@ public class Customer {
     public void setLastName(String lastName) {
         this.lastName = lastName;
     }
+    
+    public void updateCustomer(Customer customer) {
+        this.lastName = customer.getLastName();
+        this.firstName = customer.getFirstName();
+    }
 
     @Override
     public String toString() {
