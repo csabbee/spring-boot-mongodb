@@ -42,4 +42,4 @@ curl -H "Content-Type: application/json" -X POST -d '{"firstName": "myNew", "las
 ```
 
 ## Config
-You can update on which port should the server list by updating the **server.port** in **application.properties** 
+You can update on which port should the server listen by updating the **server.port** in **application.properties** 
